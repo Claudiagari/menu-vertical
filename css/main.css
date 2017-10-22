@@ -1,0 +1,54 @@
+/*Definiendo el estilo de letra*/
+body {
+    font-family: sans-serif;
+}
+/*Tamaño de la estructura */
+nav{
+     width: 200px;
+}
+/*Quitando estilo predeterminado a la lista */
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px;
+
+}
+/*Colocando color de fondo*/
+li {
+    background-color: #f5f5f0;
+
+}
+/*Dando estilo a la etiqueta anchor*/
+a {
+    display: block;
+    text-decoration: none;
+    color:#000;
+    padding-left: 10px;
+}
+/*Dando color al pasar el mouse*/
+a:hover{
+    background: #e0e0d1;
+}
+/*Dando color al hacer click*/
+a:active{
+    background: #333;
+    color:#fff;
+}
+/*Dando color a la primera linea*/
+ul li:first-child{
+    background-color: #f9a91a;
+}
+/*Dando color a la letra de la primera linea de anchor*/
+ul li:first-child a{
+    color:#fff
+}
+/*Dando color al pasar el mouse de la primera linea de anchor*/
+ul li:first-child a:hover{
+    color:#000
+}
+/*Dando color al hacer click de la primera linea de anchor*/
+ul li:first-child a:active{
+    color:#fff;
+}
+
